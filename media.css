@@ -75,7 +75,9 @@
 
  /* Sobre nós */
   .sobre-nos{
+    width: 410px;
     margin-top: 100px;
+   
  }
  .sobre-nos .titulo h1{
     font-size: 2rem;
@@ -85,7 +87,8 @@
  }
  .container-nos{
     flex-direction:column ;
-    width: 430px;
+    
+
  }
  .sobre-nos-descricao{
     margin: 0 50px;
@@ -96,12 +99,13 @@
     margin: 15px 0;
  }
  .img-cafe img{
-    width: 430px;
+    width: 410px;
  }
 .container-nos .sobre-nos-descricao p{
     font-size:  14px;
     width: 300px;
     text-align: justify;
+    
  }
 .container-nos .sobre-nos-descricao button{
     width: 150px;
