@@ -15,7 +15,7 @@
     cursor: pointer;
     border: none;
     background-color: transparent;
-   
+    margin-right: 30px;
 }
  .menu-mobile ul{
     position: absolute;
