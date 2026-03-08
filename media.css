@@ -15,7 +15,7 @@
     cursor: pointer;
     border: none;
     background-color: transparent;
-     padding-right: 5%;
+   margin-right: 50px;
 }
  .menu-mobile ul{
     position: absolute;
@@ -59,14 +59,16 @@
 }
  /* cartaz */
  header .logo img{
-    width: 70px;
-    height: 60px;
+    width: 60px;
+    height: 50px;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
+  
 }
 #cartaz .descricao-home{
     padding-top: 110px;
-    padding-left: 4%;
+      padding-left: 4%;
+   
 }
 .descricao-home h1{
     font-size: 2rem;
@@ -74,7 +76,7 @@
     width: 300px;
  }
  .descricao-home h2{
-    margin: 10px 0;
+    margin: 15px 0;
     font-size: 14px;
     width: 300px;
  }
@@ -90,6 +92,7 @@
     font-weight: 500;
     margin-bottom: 50px;
     color: white;
+    margin-left: 30px;
  }
  .container-nos{
     flex-direction:column ;
