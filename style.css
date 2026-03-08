@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+     background-color:black;
+}
+/* Menu-desktop */
+header{
+    width: 100%;
+    padding: 5px 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+}
+#interface{
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 7%;
+}
+header #interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+header .logo img{
+    width: 70px;
+    height: 60px;
+    margin-top: 10px;
+}
+.menu-desktop ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.menu-desktop li {
+margin-right: 50px;
+}
+.menu-desktop li a{
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.menu-desktop li a:hover{
+    color: #D3ad7f;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+header .icones{
+        font-size: 24px;
+        margin-right: 50px;
+}
+ header .icones a i{
+    display: inline-block;
+    padding: 0 20px;
+    color: white;
+    transition: 0.3s;
+ }
+ header .icones a i:hover{
+    color: #D3ad7f;
+    transform: scale(1.1);
+    
+ }
+ /* Script Js */
+ header.rolar{
+    background-color: #111214;
+ }
+ #interface.rolar{
+    background-color: #111214;
+ }
+
+/* Home */
+#cartaz{
+    background-image: url("imagem/home-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+#cartaz .descricao-home{
+    padding-top: 150px;
+    color: white;
+}
+.descricao-home h1{
+    font-size: 3rem;
+    width: 400px;
+ }
+ .descricao-home h2{
+    font-size: 16px;
+    font-weight: 300;
+    width: 600px;
+    margin: 20px 0;
+    opacity: 0.7;
+   
+ }
+ .descricao-home button{
+    background-color: #D3ad7f;
+    cursor: pointer;
+    width: 150px;
+    padding: 10px;
+ }
+  .descricao-home a  button{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+  }
+    .descricao-home a button:hover{
+    color: black;
+    background-color: #f5ba71;
+    transform: scale(1.1);
+  }
+
+
+ /* Sobre Nós */
+ .sobre-nos{
+    margin-top: 200px;
+ }
+ .sobre-nos .titulo h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: white;
+ }
+ .sobre-nos .titulo h1 span{
+    color: #D3ad7f;
+ }
+ .container-nos{
+    color: white;
+    background-color:#111214;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .sobre-nos-descricao{
+    margin: 0 50px;
+ }
+ .container-nos .sobre-nos-descricao h2{
+    font-size: 2rem;
+ }
+.container-nos .sobre-nos-descricao p{
+    font-size:  18px;
+    width: 600px;
+ }
+.container-nos .sobre-nos-descricao button{
+    background-color: #D3ad7f;
+    cursor: pointer;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.container-nos .sobre-nos-descricao a button {
+     color: white;
+     display: inline-block;
+    text-decoration: none;
+     font-weight: 500;
+}
+.container-nos .sobre-nos-descricao a button:hover{
+    color: black;
+    background-color: #f5ba71;
+    transform: scale(1.1);
+
+}
+
+/* Nosso Menu */
+.nosso-menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 3fr));
+    gap: 1.5rem;
+    color: white;  
+}
+.nosso-menu .titulo h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 50px 0;
+    color: white;
+
+}
+.nosso-menu .titulo h1 span{
+    color: #D3ad7f;
+}
+.box-container .produto{
+    cursor: pointer;
+    text-align: center;
+    padding: 4rem;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+}
+.box-container .produto:hover{
+    background-color: #111214;
+}
+.box-container .produto img{
+    height: 9rem;
+}
+.box-container .produto h2{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+.box-container .produto .price{
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+.box-container .produto .price span{
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+.box-container .produto a button{
+    text-decoration: none;
+    background-color: #D3ad7f;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    width: 150px;
+    padding: 10px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+.box-container .produto a button:hover{
+    transform: scale(1.1);
+    background-color: #f5ba71;
+    color: black;
+}
+
+/* clientes */
+.cliente .titulo h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 50px 0;
+    color: white;
+}
+.cliente .titulo h1 span{
+    color: #D3ad7f;
+}
+.cliente .container-cliente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-cliente .avaliacao{
+    border: 1px solid rgba(255, 255, 255, 0.267);
+    cursor: pointer;
+    padding: 1.5rem;
+    margin: 0 20px;
+}
+.container-cliente .avaliacao:hover{
+    background-color: #111214;
+}
+.avaliacao h2{
+    color: white;
+    font-weight: 300;
+    width: 400px;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.container-cliente .avaliacao .pic {
+    border-radius: 50%;
+}
+.container-cliente .avaliacao h3{
+    margin-top: 10px;
+    color: white;
+}
+.container-cliente .avaliacao p i{
+    color: white;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+/* Localização */
+.endereco .titulo h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 50px 0;
+    color: white;
+
+}
+.endereco .titulo h1 span{
+    color: #D3ad7f;
+}
+.endereco .container-maps .maps{
+    text-align: center;
+}
+
+/* footer */
+.footer .redes-sociais{
+    text-align: center;
+    margin: 50px 0;
+   
+}
+.footer .redes-sociais a{
+    text-decoration: none;
+}
+.footer .redes-sociais i{
+     color: white;
+     cursor: pointer;
+     font-size: 27px;
+     padding: 0 15px;
+     display: inline-block;
+}
+.footer .redes-sociais i:hover{
+    transform: scale(1.1);
+    color:#D3ad7f;
+}
+/* menu-mobile */
+.menu-mobile-icon{
+    display: none;
+}
+.menu-mobile{
+    display: none;
+}

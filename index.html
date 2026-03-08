@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- Bootstrap-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- /Bootstrap-->
+     <!-- Google-fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Coiny&family=Fascinate&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+FR+Trad:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap" rel="stylesheet">
+      
+ <!-- /Google-fonts-->
+
+    <title>Caféteria</title>
+</head>
+
+<body>
+    <!-- Menu-dektop-->
+    <header id="header">
+        <section id="interface">
+            <div class="logo">
+                <img src="imagem/logo.png" alt="Logo">
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre-nos">Sobre</a></li>
+                    <li><a href="#nosso-menu">Menu</a></li>
+                    <li><a href="#cliente">Avaliações</a></li>
+                    <li><a href="#endereco">Endereço</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="icones">
+                <a href="#"><i class="bi bi-search"></i></a>
+                <a href="#"><i class="bi bi-cart3"></i></a>
+
+            </div>
+
+
+            <section class="menu-mobile-icon" id="menu-mobile-icon">
+                <button onclick="menuShow()"><img class="icon" src="imagem/menu_white_36dp.svg" alt=""></button>
+
+            </section>
+
+            <section class="menu-mobile">
+                  <ul>
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#sobre-nos">Sobre</a></li>
+                    <li class="nav-item"><a href="#nosso-menu">Menu</a></li>
+                    <li class="nav-item"><a href="#cliente">Avaliações</a></li>
+                    <li class="nav-item"><a href="#endereco">Endereço</a></li>
+
+                </ul>
+
+            </section>
+
+
+        </section>
+    </header>
+
+    <!-- Home-->
+    <section id="cartaz">
+        <section id="interface">
+            <div class="descricao-home">
+                <h1>Code com o Melhor Café da Região</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perferendis, at repellendus vel odio perspiciatis sed explicabo saepe cum, similique delectus hic? Eligendi saepe officiis corrupti aperiam, dolorem incidunt? Voluptatem nemo veniam iste quisquam corporis? Dolores perferendis dolor impedit tenetur laborum aut explicabo voluptates, aperiam fugiat quasi natus excepturi iusto!</h2>
+                <a href="#"><button type="button">Pegue o seu Agora</button></a>
+            </div>
+        </section>
+    </section>
+
+    <!-- Sobre-Nos-->
+     <section class="sobre-nos" id="sobre-nos">
+        <section id="interface">
+            <div class="titulo">
+                <h1><span>Sobre </span>Nós</h1>
+            </div>
+
+            <section class="container-nos">
+                <div class="img-cafe">
+                    <img src="imagem/about-img.jpg" alt="">
+
+                </div>
+                <div class="sobre-nos-descricao">
+                    <h2>
+                        O Que Faz Nosso Café Especial
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus laudantium officiis ab vel quam aperiam amet dolore error obcaecati odit, quos perspiciatis officia, veritatis aut velit blanditiis quidem voluptatum!
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, a! Quasi odio quam, nihil, asperiores, molestiae non labore necessitatibus distinctio iste cumque quisquam eos culpa tempora obcaecati hic recusandae nemo.
+                    </p>
+                    <a href="#"><button type="button">Saiba Mais</button></a>
+
+                </div>
+            </section>
+        </section>
+     </section>
+
+     <!-- Menu-->
+      <section class="nosso-menu" id="nosso-menu">
+      
+            <section id="interface">
+                <div class="titulo">
+                    <h1>Nosso <span>Menu</span></h1>
+                </div>
+                
+                    <div class="box-container">
+                        <div class="produto">
+                            <img src="imagem/menu-1.png" alt="Café Coado">
+                            <h2>Café Coado</h2>
+                            <div class="price">R$ 15.99 <span>R$ 20.99</span></div>
+                             <a href="#"><button>add to cart</button></a>
+                        </div >
+                         <div class="produto">
+                            <img src="imagem/menu-2.png" alt="Café Coado">
+                            <h2>Café Coado</h2>
+                            <div class="price">R$ 15.99 <span>R$ 20.99</span></div>
+                             <a href="#"><button>add to cart</button></a>
+                        </div >
+                         <div class="produto">
+                            <img src="imagem/menu-3.png" alt="Café Coado">
+                            <h2>Café Coado</h2>
+                            <div class="price">R$ 15.99 <span>R$ 20.99</span></div>
+                             <a href="#"><button>add to cart</button></a>
+                        </div >
+                         <div class="produto">
+                            <img src="imagem/menu-4.png" alt="Café Coado">
+                            <h2>Café Coado</h2>
+                            <div class="price">R$ 15.99 <span>R$ 20.99</span></div>
+                             <a href="#"><button>add to cart</button></a>
+                        </div >
+                         <div class="produto">
+                            <img src="imagem/menu-5.png" alt="Café Coado">
+                            <h2>Café Coado</h2>
+                            <div class="price">R$ 15.99 <span>R$ 20.99</span></div>
+                             <a href="#"><button>add to cart</button></a>
+                        </div >
+                         <div class="produto">
+                            <img src="imagem/menu-6.png" alt="Café Coado">
+                            <h2>Café Coado</h2>
+                            <div class="price">R$ 15.99 <span>R$ 20.99</span></div>
+                             <a href="#"><button>add to cart</button></a>
+                        </div >
+                   </div>
+            </section>
+
+
+
+        </section>
+
+     <!-- Clientes-->
+        <section class="cliente" id="cliente">
+            <section id="interface">
+                <div class="titulo">
+                    <h1>Nossos <span>Clientes</span></h1>
+
+                </div>
+
+                <div class="container-cliente">
+                    <div class="avaliacao">
+                        <img class="quote" src="imagem/quote-img.png" alt="">
+                        <h2>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid cupiditate tempora! Deleniti beatae earum saepe asperiores ab molestias consequatur sit. Voluptas quibusdam modi animi asperiores, aut exercitationem non ad!
+                        
+                       </h2>
+                       <img class="pic" src="imagem/pic-1.png" alt="">
+                       <h3>Adriano</h3>
+                       <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></p>
+                         
+                    </div>
+
+                     <div class="avaliacao">
+                        <img class="quote" src="imagem/quote-img.png" alt="">
+                        <h2>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid cupiditate tempora! Deleniti beatae earum saepe asperiores ab molestias consequatur sit. Voluptas quibusdam modi animi asperiores, aut exercitationem non ad!
+                            
+                       
+                        </h2>
+                        <img class="pic" src="imagem/pic-2.png" alt="">
+                        <h3>Manuela</h3>
+                         <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></p>
+                    </div>
+
+                     <div class="avaliacao">
+                        <img class="quote" src="imagem/quote-img.png" alt="">
+                        <h2>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid cupiditate tempora! Deleniti beatae earum saepe asperiores ab molestias consequatur sit. Voluptas quibusdam modi animi asperiores, aut exercitationem non ad!
+                        
+                        </h2>
+                        <img class="pic" src="imagem/pic-3.png" alt="">
+                        <h3>Adrian</h3>
+                         <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                    </div>
+                   
+
+                </div>
+
+
+            </section>
+
+        </section>
+
+    <!-- Endereço -->
+     <section class="endereco" id="endereco">
+        <section id="interface">
+            <div class="container-maps">
+
+                <div class="titulo">
+                    <h1>Nosso <span>Endereço</span></h1>
+                </div>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.545602830099!2d-38.62357648884053!3d-3.690287796268176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c735d1cb7f275b%3A0x4342724338263078!2zQ2Fmw6kgaG90!5e0!3m2!1spt-PT!2sbr!4v1772860955294!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </section>
+     </section>
+
+     <!-- footer -->
+      <section class="footer">
+        <section id="interface">
+            <div class="redes-sociais">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </div>
+
+        </section>
+
+      </section>
+
+
+      <script src="script.js"></script>
+
+
+    
+</body>
+</html>
