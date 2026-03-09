@@ -1,4 +1,7 @@
 @media screen and (max-width: 1100px){
+    header{
+        height:20vh;
+    }
     .menu-desktop {
        display: none;
     }
@@ -16,6 +19,7 @@
     border: none;
     background-color: transparent;
     margin-right: 50px;
+    margin-top:15px;
 }
  .menu-mobile ul{
     position: absolute;
@@ -61,7 +65,7 @@
  header .logo img{
     width: 60px;
     height: 50px;
-    margin-top: 10px;
+    margin-top:15px;
     margin-left: 20px;
   
 }
