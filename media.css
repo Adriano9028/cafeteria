@@ -15,11 +15,11 @@
     cursor: pointer;
     border: none;
     background-color: transparent;
-   margin-right: 50px;
+    margin-right: 50px;
 }
  .menu-mobile ul{
     position: absolute;
-    top: 16vh;
+    top: 13vh;
     right: 0;
     width: 50vw;
     height: 92vh;
@@ -116,10 +116,10 @@
     text-align: justify;
     
  }
-.container-nos .sobre-nos-descricao button{
+ .sobre-nos-descricao  button{
     width: 150px;
     padding: 10px;
-    margin: 15px 0;
+    text-align: center;
 }
 /* Menu */
 
@@ -190,7 +190,7 @@
 }
 /* footer */
 .footer .redes-sociais i{
-     font-size: 22px;
+     font-size: 25px;
      padding: 0 10px;
      display: inline-block;
 }

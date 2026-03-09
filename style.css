@@ -201,7 +201,8 @@ header .icones{
     background-color: #111214;
 }
 .box-container .produto img{
-    height: 9rem;
+    width: 5rem;
+  
 }
 .box-container .produto h2{
     font-size: 1.2rem;
